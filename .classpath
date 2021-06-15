@@ -118,5 +118,7 @@
 	<classpathentry kind="lib" path="C:/selenium-java-4.0.0-beta-4/lib/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="C:/selenium-java-4.0.0-beta-4/lib/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/chromedriver.exe"/>
+	<classpathentry kind="lib" path="C:/geckodriver.exe"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
