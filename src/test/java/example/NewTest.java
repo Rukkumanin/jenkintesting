@@ -4,7 +4,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;		
 import org.testng.annotations.Test;	
 import org.testng.annotations.BeforeTest;	
-import org.testng.annotations.AfterTest;		
+import org.testng.annotations.AfterTest;	
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class NewTest {		
 	    private WebDriver driver;		
 		@Test				
@@ -15,6 +17,8 @@ public class NewTest {
 		}	
 		@BeforeTest
 		public void beforeTest() {	
+			WebDriverManager.firefoxdriver().setup();
+
 		    driver = new FirefoxDriver();  
 		}		
 		@AfterTest
